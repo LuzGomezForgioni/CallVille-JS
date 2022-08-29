@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*INICIO*/
+header {
+    font-family: "Poppins", sans-serif;
+    background-color: #121212;
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.parallax {
+    background-image: url("../img/icono3.png");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Nav */
+.navbar {
+    padding: 0 20px;
+    text-align: right;
+    -webkit-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+}
+
+.navbar-nav {
+    gap: 70px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+#linkActive {
+    color: aqua;
+}
+
+/* Main */
+main {
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(to bottom, #c4e0e5, #4ca1af);
+}
+
+main h2 {
+    text-align: center;
+    padding: 25px;
+    font-size: 35px;
+    margin: 0;
+}
+
+main section article div h3 {
+    text-align: center;
+    padding: 30px;
+    font-size: 32px;
+    margin: 0;
+}
+
+.fontH3 {
+    text-align: center;
+}
+
+/* Carousel */
+.carousel {
+    text-align: center;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 10%;
+}
+
+/* Envío y pagos */
+.containerInicio {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.fa-truck,
+.fa-credit-card,
+.fa-circle-check,
+.fa-face-laugh-beam {
+    font-size: 60px;
+    padding: 20px;
+}
+
+.h4--inicio {
+    margin: 0;
+    font-size: 22px;
+}
+
+.rowInicio {
+    margin: 0;
+}
+
+/* PRODUCTOS */
+.card {
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 250px;
+    height: 420px;
+}
+
+.card-img-top{
+    width: 150px;
+    height: 250px;
+}
+
+.h4--produc{
+    text-align: center;
+    margin: 0;
+    padding: 35px;
+    font-size: 30px;
+}
+
+/* Footer */
+footer {
+    font-family: "Poppins", sans-serif;
+    background-color: #4da0ae;
+}
+
+footer div h4 {
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+}
+
+footer div h3 {
+    letter-spacing: 2px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 0;
+}
+
+footer .footer1 {
+    background-color: #121212;
+    padding: 12px 0;
+}
+
+footer .footer2 {
+    background-color: black;
+}
+
+/* Formulario */
+.formConteiner {
+    -webkit-box-shadow: 3px -2px 20px 4px rgba(66, 58, 58, 0.75);
+    box-shadow: 3px -2px 20px 4px rgba(66, 58, 58, 0.75);
+    border-radius: 8px;
+    padding: 20px 0px;
+    margin: 50px auto;
+    background-color: bisque;
+    width: 360px;
+    line-height: 26px;
+}
+
+.formConteiner__title {
+    font-size: 25px;
+    margin: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__label {
+    display: inline-block;
+    width: 95%;
+    font-weight: 600;
+}
+
+.form__input,
+.form__textarea {
+    width: 75%;
+    padding: 8px;
+    background-color: bisque;
+    border-radius: 5px;
+    border: solid 1px #121212;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.form__textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form__input,
+.form__textarea,
+.form__textarea:focus {
+    outline: none;
+}
+
+.form__input--submit {
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form__input--submit:hover {
+    background-color: peachpuff;
+}
+
+.form__label--checkbox {
+    margin-top: 12px;
+}
+
+.footerInline2 a {
+    text-decoration: none;
+}
+
+label {
+    display: inline;
+    margin-bottom: 0;
+}
+
+.col-md-6 {
+    text-align: center;
+}
+
+/* Iframe */
+.footerInline {
+    display: inline-block;
+}
+
+.iframeResponsive {
+    -webkit-box-shadow: 3px -2px 20px 4px rgba(66, 58, 58, 0.75);
+    box-shadow: 3px -2px 20px 4px rgba(66, 58, 58, 0.75);
+}
+
+.iframe {
+    margin: 50px 0;
+}
+
+/* Redes */
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa-instagram:hover {
+    color: #C13584;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-whatsapp:hover {
+    color: #25D366;
+}
+
+.fa-envelope:hover {
+    color: #dd4b39;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa-instagram:hover {
+    color: #C13584;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-whatsapp:hover {
+    color: #25D366;
+}
+
+.fa-envelope:hover {
+    color: #dd4b39;
+}
+
+.footerInline2 {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+.fa-whatsapp,
+.fa-twitter,
+.fa-instagram,
+.fa-facebook,
+.fa-envelope {
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Botón subir*/
+.fa-angle-up {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #121212;
+    color: white;
+    border: 3px solid azure;
+    position: fixed;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 2px 10px #f8f9faa9;
+    box-shadow: 2px 2px 10px #f8f9faa9;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    header h2 {
+        font-size: 27px;
+        padding-bottom: 30px;
+    }
+
+    .parallax {
+        height: 360px;
+        background-position-y: 25px;
+        background-size: 750px;
+    }
+
+    .navbar-nav {
+        gap: 0;
+        background: #121212e0;
+        width: 100%;
+        padding: 10px 35px;
+    }
+
+    .carousel-indicators {
+        margin: 3px;
+    }
+
+    .carousel-indicators li {
+        width: 15px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 3px;
+    }
+
+    .h3,
+    h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .imgCarousel {
+        height: 250px;
+    }
+
+    .formConteiner {
+        width: 350px;
+    }
+
+    .formConteiner__title {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .footerInline {
+        display: block;
+    }
+
+    .iframeResponsive {
+        width: 370px;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+
+    .iframe {
+        margin: 10px auto 10px auto;
+        text-align: center;
+    }
+
+    footer p {
+        font-weight: 100;
+    }
+
+    .fa-angle-up {
+        width: 35px;
+        height: 35px;
+        bottom: 65px;
+        right: 35px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header h2 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .parallax {
+        height: 320px;
+        background-position-y: 70px;
+        background-size: 540px;
+    }
+
+    .navbar-nav {
+        gap: 0;
+        background: #121212e0;
+        width: 100%;
+        padding: 10px 35px;
+    }
+
+    main h2 {
+        font-size: 25px;
+        padding: 25px;
+    }
+
+    .carousel-indicators {
+        margin: 3px;
+    }
+
+    .carousel-indicators li {
+        width: 15px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 3px;
+    }
+
+    .h3,
+    h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .imgCarousel {
+        height: 200px;
+    }
+
+    .formConteiner {
+        width: 300px;
+        padding: 20px 0px;
+    }
+
+    .formConteiner__title {
+        font-size: 22px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .footerInline {
+        display: block;
+    }
+
+    .iframeResponsive {
+        width: 320px;
+        height: 320px;
+    }
+
+    .iframe {
+        margin: 0px auto 30px auto;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    .fa-angle-up {
+        width: 35px;
+        height: 35px;
+        bottom: 10px;
+        right: 10px;
+    }
+}

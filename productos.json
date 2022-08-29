@@ -1,0 +1,98 @@
+[
+    {
+        "precio": 800,
+        "id": 1,
+        "nombreProducto": "Funda Motorola",
+        "imagen": "img/funda1.png"
+    },
+    {
+        "precio": 800,
+        "id": 2,
+        "nombreProducto": "Funda LG",
+        "imagen": "img/funda2.png"
+    },
+    {
+        "precio": 800,
+        "id": 3,
+        "nombreProducto": "Funda Xiaomi",
+        "imagen": "img/funda3.png"
+    },
+    {
+        "precio": 800,
+        "id": 4,
+        "nombreProducto": "Funda Samsung",
+        "imagen": "img/funda4.png"
+    },
+    {
+        "precio": 900,
+        "id": 5,
+        "nombreProducto": "Funda iPhone",
+        "imagen": "img/funda5.png"
+    },
+    {
+        "precio": 900,
+        "id": 6,
+        "nombreProducto": "Templado 9D Motorola",
+        "imagen": "img/temp1.png"
+    },
+    {
+        "precio": 900,
+        "id": 7,
+        "nombreProducto": "Templado 9D Samsung",
+        "imagen": "img/temp2.png"
+    },
+    {
+        "precio": 500,
+        "id": 8,
+        "nombreProducto": "Fuente Cargador",
+        "imagen": "img/cargador1.png"
+    },
+    {
+        "precio": 600,
+        "id": 9,
+        "nombreProducto": "Cable USB",
+        "imagen": "img/cargador2.png"
+    },
+    {
+        "precio": 1800,
+        "id": 10,
+        "nombreProducto": "Auricular Bluetooth Celeste",
+        "imagen": "img/auri1.png"
+    },
+    {
+        "precio": 2100,
+        "id": 11,
+        "nombreProducto": "Auricular Bluetooth Negro",
+        "imagen": "img/auri2.png"
+    },
+    {
+        "precio": 2800,
+        "id": 12,
+        "nombreProducto": "Auricular Gamer Rosa",
+        "imagen": "img/auri3.png"
+    },
+    {
+        "precio": 1200,
+        "id": 13,
+        "nombreProducto": "Auricular Blanco",
+        "imagen": "img/auri4.png"
+    },
+    {
+        "precio": 40000,
+        "id": 14,
+        "nombreProducto": "Silla Gamer",
+        "imagen": "img/silla1.png"
+    },
+    {
+        "precio": 1500,
+        "id": 15,
+        "nombreProducto": "Palo de selfie",
+        "imagen": "img/pselfie1.png"
+    },
+    {
+        "precio": 2500,
+        "id": 16,
+        "nombreProducto": "Aro de luz led",
+        "imagen": "img/arodeluz.png"
+    }
+]
